@@ -1,0 +1,26 @@
+.nav-cart {
+  display: flex;
+  position: relative;
+}
+
+.nav-cart svg {
+    color: #0a0a0a;
+    font-size: 1rem;
+}
+
+.cart-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #717fe0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 5px;
+}

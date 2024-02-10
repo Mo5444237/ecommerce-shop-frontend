@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+
+:root {
+  font-family: "Poppins", sans-serif, "Cinzel Decorative";
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #717fe0;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  color: #0a0a0a;
+  transition: all 0.3s ease-in-out;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.controllers-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+}
+
+.links a {
+  color: #0a0a0a;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover,
+.links a.active {
+  color: #717fe0;
+}
+
+.icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icons div {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  border: 1px solid #b2b2b2;
+  color: #0a0a0a;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons div:hover,
+.icons div.active {
+  background-color: #717fe0;
+  color: #fff;
+  border-color: #717fe0;
+}
+
+.icons div:hover > svg path,
+.icons div.active > svg path {
+  stroke: #fff;
+}
+
+.icons svg {
+  width: 1.5rem;
+  height: auto;
+}
+
+.icons svg path {
+  transition: all 0.3s ease-in-out;
+}
+
+.icons p {
+  margin: 0;
+  font-size: 1.125rem;
+  margin-left: 8px;
+}
+
+.icons p::selection {
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .controllers-container {
+    width: 90%;
+  }
+}
+

@@ -1,0 +1,82 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem 0;
+    width: 30rem;
+    max-width: 90%;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form .errors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #ff333320;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: .5rem;
+}
+
+.form .error {
+    color: #ff3333;
+    font-weight: 500;
+}
+
+.form .errors svg {
+    min-width: 2rem;
+}
+
+p.error {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.form h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-family: 'cinzel decorative';
+    text-transform: lowercase;
+}
+
+form .input input:-webkit-autofill,
+form .input input:-webkit-autofill:hover, 
+form .input input:-webkit-autofill:focus, 
+form .input input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.form .actions {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.form .actions .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .actions .links a {
+    color: #717fe0;
+}
+
+.form .actions button {
+    border-radius: 0;
+    font-size: 1.25rem;
+}

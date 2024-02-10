@@ -1,0 +1,23 @@
+
+.slider ul{
+    bottom: -2rem;
+}
+
+.custom-arrow::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-top: 3px solid #000;
+    border-left: 3px solid #000;
+    cursor: pointer;
+}
+
+.custom-next-arrow::before {
+    transform: rotate(135deg);
+}
+
+.custom-prev-arrow::before {
+    transform: rotate(315deg);
+}

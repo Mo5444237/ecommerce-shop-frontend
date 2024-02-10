@@ -1,0 +1,36 @@
+.container {
+    margin-top: 8rem;
+    min-height: 100vh;
+}
+
+
+.container .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.container .image-container {
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 2rem;
+}
+
+.center div {
+    width: 3rem;
+    padding: .5rem;
+}
+
+@media (max-width: 768px) {
+  .container .products {
+    width: 90%;
+  }
+}

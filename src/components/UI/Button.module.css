@@ -1,0 +1,19 @@
+.button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #0a0a0a;
+    border: 1px solid #0a0a0a;
+    padding: .75rem 2rem;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.button:hover, .button:disabled {
+    background-color: #0a0a0add;
+    border: 1px solid #0a0a0add;
+}

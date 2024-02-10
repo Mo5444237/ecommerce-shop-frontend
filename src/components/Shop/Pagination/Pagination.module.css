@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 2.5rem auto;
+}
+
+.container .button {
+    padding: .5rem 1.75rem;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.container .disabled {
+    color: #0a0a0aaa;
+}
+
+.container .button a {
+    width: 100%;
+    text-decoration: none;
+    color: #0a0a0a;
+    transition: all .3s ease-in-out;
+}
+
+.container .button:hover > a {
+    color: #717fe0;
+}
+
+.container .pages span{
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

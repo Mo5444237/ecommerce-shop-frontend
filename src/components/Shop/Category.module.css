@@ -1,0 +1,83 @@
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  max-height: 500px;
+  transition: all 0.3s ease-in-out;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 0.15) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container .text {
+  width: 90%;
+  z-index: 3;
+  position: absolute;
+  color: #121212;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.container .text h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Cinzel Decorative";
+  text-transform: lowercase;
+}
+
+.container .text p {
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+
+.container .text a {
+  position: relative;
+  color: #717fe0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+.container .text a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #717fe0;
+  width: 0;
+  height: 1.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .text a:hover::before {
+  width: 100%;
+}
+
+.container img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .container .text h3 {
+    font-size: 2rem;
+  }
+
+  .container .text p {
+    font-size: 1.5rem;
+  }
+}

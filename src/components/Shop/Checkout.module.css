@@ -1,0 +1,79 @@
+.container {
+    width: 30rem;
+    left: calc(50% - 15rem);
+    padding: 3rem 2rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.form .errors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background-color: #ff333320;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: .5rem;
+}
+
+.form .error {
+    color: #ff3333;
+}
+
+p.error {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.form h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'cinzel decorative';
+    text-transform: lowercase;
+}
+
+form .input input:-webkit-autofill,
+form .input input:-webkit-autofill:hover, 
+form .input input:-webkit-autofill:focus, 
+form .input input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.form .actions {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.form .actions .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .actions .links a {
+    color: #717fe0;
+}
+
+.form .actions button {
+    border-radius: 0;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    left: 5%;
+    padding: 3rem 1rem;
+  }
+}
