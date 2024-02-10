@@ -4,7 +4,7 @@
 This project is a React application created with Vite, featuring Redux toolkit to efficiently manage app wide states, Tanstack Query (React Query) for efficiently sending of http requests.
 
 ## Live Version 
-For live version [Click Here](https://store-five-iota.vercel.app/shop)
+For live version <a href="https://store-five-iota.vercel.app/shop" target="_blank">Click here</a>
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ Make sure you have the following installed:
 
     Make sure to set-up baseUrl inside `./services/baseUrl` file before starting the server.
     For a smooth run of this application feel free to use my backend implementation, mainly developed 
-    for this project, you will find all details right [here](https://github.com/Mo5444237/ecommerce-shop-backend).
+    for this project, you will find all details right <a href="https://github.com/Mo5444237/ecommerce-shop-backend" target="_blank">here</a>.
    
 5. Start the application:
 
