@@ -4,7 +4,7 @@
 This project is a React application created with Vite, featuring Redux toolkit to efficiently manage app wide states, Tanstack Query (React Query) for efficiently sending of http requests.
 
 ## Live Version 
-For live version <a href="https://store-five-iota.vercel.app/shop" target="_blank">Click here</a>
+For live version <a href="https://store-five-iota.vercel.app" target="_blank">Click here</a>
 
 ## Table of Contents
 
